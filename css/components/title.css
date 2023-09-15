@@ -1,0 +1,52 @@
+
+
+section {
+    display: flex;
+    padding: 196px 91px;
+}
+
+.quadrado {
+    display: block;
+    background-color: #3A4042;
+    box-shadow: 5px 5px 0px #000;
+    width: 627px;
+    height: 184px;
+    top: 238px;
+    left: 181px;
+}
+
+h1 {
+    color: #F25A70;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 4px 4px 0 #000;
+    line-height: 40px;
+    text-align: center;
+}
+
+p {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 4px 4px 0 #000;
+    line-height: 30px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+/* CAIXA MARCO BRUNO TERMINADA */
+
+.container {
+    display: flex;
+    padding: 0 181px;
+}
+
+.button1 {
+    display: flex;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    text-align: center;
+    top: 170px
+}
