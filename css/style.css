@@ -1,4 +1,7 @@
-
+body {
+    background-image: url(../assets/img/photo.png);
+    background-size: contain;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -24,7 +27,7 @@ a {
 
 a::before {
     content: '';
-    background-color: #F25A70;
+    background-color: #f25a70;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -57,8 +60,6 @@ section {
     box-shadow: 5px 5px 0px #000;
     width: 627px;
     height: 184px;
-    top: 238px;
-    left: 181px;
 }
 
 h1 {
@@ -79,18 +80,35 @@ p {
     text-align: center;
 }
 
-/* SECTION TERMINADA */
-
-.container {
-    display: flex;
-    padding: 0 181px;
-}
-
-.button1 {
-    display: flex;
-    background-color: #F25A70;
+.button-left, .button-right {
+    display: inline-block;
+    background-color: #f25a70;
     box-shadow: 5px 5px 0px #000;
     padding: 18px 20px;
-    text-align: center;
-    top: 170px
+    cursor: pointer;
+    transition: transform 100ms linear;
 }
+
+.button-left:hover {
+    transform: scale(1.08);
+}
+
+.button-right:hover {
+    transform: scale(1.08);
+}
+
+#centralizar1 {
+    position: absolute; 
+    top: 567px;
+    left: 240px;
+    transform: translate(-50%, -50%);
+}
+
+#centralizar2 {
+    position: absolute; 
+    top: 567px;
+    left: 600px;
+    transform: translate(-50%, -50%);
+}
+
+/* SECTION TERMINADA */
