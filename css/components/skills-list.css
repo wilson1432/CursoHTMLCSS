@@ -1,0 +1,8 @@
+
+.img-skills {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 215px;
+    justify-content: space-between;
+}
