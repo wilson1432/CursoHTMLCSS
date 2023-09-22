@@ -1,0 +1,14 @@
+
+.main-project {
+    background-color: #000;
+    padding: 50px;
+    border-bottom: 10px solid #d49035;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1155px;
+    justify-content: space-between;
+    padding: 80px 144px;
+}
