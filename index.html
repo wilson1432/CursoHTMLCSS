@@ -10,55 +10,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
     <link rel="stylesheet" href="css/components/main-title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/main-project.css">
+    <link rel="stylesheet" href="css/components/card-projects.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
 
 <body>
 
-    <header class="header">
+    <header class="main-header">
         <img src="assets/img/logo2.png"
             alt="Logo curso feliz">
         
         <nav>
-            <a class="action" href="#">Skills</a>
-            <a class="action" href="#">Projetos</a>
-            <a class="action" href="#">Sobre</a>
-            <a class="action" href="#">Contatos</a>
-            <a class="button" href="https://www.instagram.com/willfernando0/" target="_blank">
+            <a class="main-action" href="#">Skills</a>
+            <a class="main-action" href="#">Projetos</a>
+            <a class="main-action" href="#">Sobre</a>
+            <a class="main-action" href="#">Contatos</a>
+            <a class="main-button" href="https://www.instagram.com/willfernando0/" target="_blank">
                 Instagram
             </a>
         </nav>   
     </header>
         
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
+            <div class="main-box">
                 <h2 class="main-title">Wilson Fernando</h2>
-                <h3 class="subtitle">Front end developer com fé em Deus</h3>
+                <h3 class="main-subtitle">Front end developer com fé em Deus</h3>
             </div>
             
             <div class="navigation">
-                <a class="button" href="https://www.linkedin.com/in/wilson-fernando-a7673121b/" target="_blank">
+                <a class="main-button" href="https://www.linkedin.com/in/wilson-fernando-a7673121b/" target="_blank">
                     Linkedin
                 </a>
-                <a class="button" href="https://twitter.com/WilFernando0" target="_blank">
+                <a class="main-button" href="https://twitter.com/WilFernando0" target="_blank">
                     Twitter
                 </a>
             </div>
         </div>
     </section>
-    <section class="section">
+
+    <section class="main-section">
         <h2 class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
@@ -136,19 +138,22 @@
             </article>
         </div>
     </section>
-    <section class="main-project">
+
+    <section class="main-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
 
-        <div class="project">
-            <div class="box-project">
-                <img src="img/firedlabs.png" alt="Logo da firedlabs">
-            </div class="box-project">
-            <div>
-                <img src="img/collabcode.png" alt="Logo da collabcode">
-            </div>
-            <div class="box-project">
+        <div class="wrapper-card">
+            <figure class="card-project">
+                <img src="img/logo-firedlabs.png" alt="Logo da firedlabs">
+            </figure>
+
+            <figure class="card-project -blue">
+                    <img src="img/logo-collabcode.png" alt="Logo da collabcode">
+            </figure>
+
+            <figure class="card-project">
                 <img src="img/portfolio.png" alt="Logo do portifolio">
-            </div>
+            </figure>
         </div>
     </section>
 </body>

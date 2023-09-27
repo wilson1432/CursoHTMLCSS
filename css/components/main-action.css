@@ -1,5 +1,5 @@
 
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -10,7 +10,7 @@
     margin-right: 30px;
 }
 
-.action::before {
+.main-action::before {
     content: '';
     background-color: #d49035;
     width: 10px;
