@@ -2,7 +2,11 @@ body {
     font-family: 'Fira Code', sans-serif;
 }
 
-body{
+body, h1, h2, h3, figure{
     margin: 0;
-    padding: 0;
+}
+
+button {
+    border: none;
+    font-family: inherit;
 }
