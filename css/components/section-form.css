@@ -1,18 +1,16 @@
 
 .section-form{
-    background-color: #333;
+    background-color: #3A4042;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #7c5e99;
     height: 860px;
 }
 
-
-
 .campo {
-    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
     margin-bottom: 20px;
-    margin-left: 80px;
 }
 
 .campo label {
@@ -26,19 +24,19 @@
 
 .campo input {
     border: 5px solid #000000;
-    width: 1360px;
+    width: 100%;
     height: 30px;
 }
 
 .campo textarea {
     border: 5px solid #000000;
-    width: 1360px;
+    width: 100%;
     height: 300px;
 }
 
 .section-form .main-button {
-    height: 60px;
-    width: 1360px;
-    margin-left: 90px;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
     margin-top: 40px;
 }

@@ -236,23 +236,18 @@
 
         <h2 class="main-title -second">Contatos</h2>
 
-        <form action="#" method="post">
-                <div class="campo">
-                    <label class="name" for="name">Nome</label>
-                    <input class="text" type="text" id="nome">
-                </div>
-                
-                <div class="campo">
+        <form class="campo" action="#" method="post">
+
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required>
+
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                </div>
+                    <input type="email" name="email" id="email" required>
 
-                <div class="campo">
-                    <label for="msg">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-                </div>
+                    <label for="message">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
 
-                <button class="main-button">Enviar</button>
+                <button type="submit" class="main-button">Enviar</button>
         </form>
 
 
