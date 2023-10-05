@@ -6,3 +6,8 @@
     border-bottom: 10px solid #d49035;
     padding: 10px 20px;  
 }
+
+nav {
+    display: flex;
+    align-items: center;
+}

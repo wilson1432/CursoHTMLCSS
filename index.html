@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/main-banner.css">
@@ -32,6 +34,8 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/main-fotter.css">
+    <link rel="stylesheet" href="css/components/section-form.css">
 
 <body>
 
@@ -176,55 +180,98 @@
         </p>
 
         <section class="main-carousel">
-            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <button class="button-arrow -left"><span class="content">Voltar</span></button>
 
-            <figure class="node-card">
-                <figcaption class="title">2012</figcaption>
-                <div class="logo">
-                    <img src="img-carrosel/logo-locaweb.png" alt="Logo da locaweb">
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="img-carrosel/logo-locaweb.png" alt="Logo da locaweb">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="img-carrosel/logo-caelum.png" alt="Logo da caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="img-carrosel/logo-getninjas.png" alt="Logo da getninjas">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="img-carrosel/logo-caelum.png" alt="Logo da caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="img-carrosel/logo-impulso.png" alt="Logo da impulso">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -first">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="img-carrosel/logo-collabcode.png" alt="Logo da collabcode">
+                        </div>
+                    </figure>
                 </div>
-            </figure>
-
-            <figure class="node-card -clean">
-                <figcaption class="title">2014</figcaption>
-                <div class="logo">
-                    <img src="img-carrosel/logo-caelum.png" alt="Logo da caelum">
-                </div>
-            </figure>
-
-            <figure class="node-card -first">
-                <figcaption class="title">2016</figcaption>
-                <div class="logo">
-                    <img src="img-carrosel/logo-getninjas.png" alt="Logo da getninjas">
-                </div>
-            </figure>
-
-            <figure class="node-card -clean">
-                <figcaption class="title">2017</figcaption>
-                <div class="logo">
-                    <img src="img-carrosel/logo-caelum.png" alt="Logo da caelum">
-                </div>
-            </figure>
-
-            <figure class="node-card">
-                <figcaption class="title">2018</figcaption>
-                <div class="logo">
-                    <img src="img-carrosel/logo-impulso.png" alt="Logo da impulso">
-                </div>
-            </figure>
-
-            <figure class="node-card -first">
-                <figcaption class="title">2019</figcaption>
-                <div class="logo">
-                    <img src="img-carrosel/logo-collabcode.png" alt="Logo da collabcode">
-                </div>
-            </figure>
+            </div>
 
 
-            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+            <button class="button-arrow -right"><span class="content">Avançar</span></button>
         </section>
+    </section>
+    <section class="section-form">
+
+        <h2 class="main-title -second">Contatos</h2>
+
+        <form action="#" method="post">
+                <div class="campo">
+                    <label class="name" for="name">Nome</label>
+                    <input class="text" type="text" id="nome">
+                </div>
+                
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="campo">
+                    <label for="msg">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="main-button">Enviar</button>
+        </form>
+
+
 
     </section>
+
+    <footer class="main-fotter">
+        <a class="action" href="">
+            <img src="img/icon-twitter.png" alt="Icone Twitter">
+        </a>
+        <a class="action" href="">
+            <img src="img/icon-youtube.png" alt="Icone Youtube">
+        </a>
+        <a class="action" href="">
+            <img src="img/icon-discord.png" alt="Icone Discord">
+        </a>
+    </footer>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 
 </html>
